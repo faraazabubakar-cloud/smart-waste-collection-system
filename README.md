@@ -25,6 +25,7 @@ Install all necessary Python libraries:
 pip install "fastapi[all]" sqlalchemy shapely streamlit pandas folium streamlit-folium requests
 ---
 You need to run the three components in three separate terminals from the project's root directory.
+
 Terminal 1: Start the Backend API
 uvicorn main:app --reload
 
